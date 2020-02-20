@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!----FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!---Custom Style-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 left_side">
+                <div class="branding">
+                    <div class="branding_logo_icon">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="branding_logo_title">
+                        <h4>easy.jobs</h4>
+                    </div>
+                </div>
+
+                <!---Menus-->
+                <div class="menus">
+                    <ul>
+                        <li>
+                            <div class="menus_icon">
+                                <i class="fa fa-home"></i>
+                            </div>
+                            <div class="menus_title">Dashboard</div>
+                        </li>
+                        <li>
+                            <div class="menus_icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <div class="menus_title">Jobs</div>
+                        </li>
+                        <li>
+                            <div class="menus_icon">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="menus_title">Candidates</div>
+                        </li>
+                        <li>
+                            <div class="menus_icon">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                            <div class="menus_title">Settings</div>
+                        </li>
+                        <li>
+                            <div class="menus_icon">
+                                <i class="fa fa-bell"></i>
+                            </div>
+                            <div class="menus_title">Notification</div>
+                        </li>
+                        <li>
+                            <div class="menus_icon">
+                                <i class="fa fa-plus"></i>
+                            </div>
+                            <div class="menus_title">New Company</div>
+                        </li>
+                        <li>
+                            <div class="menus_icon">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="menus_title">My Account</div>
+                        </li>
+                        <li class="menus_logout">
+                            <div class="menus_icon">
+                                <i class="fa fa-sign-out"></i>
+                            </div>
+                            <div class="menus_title">Logout</div>
+                        </li>
+                    </ul>
+                </div>
+                <!---End Menus-->
+            </div>
+            <div class="col-md-10 right_side">
+                <!---Top Bar-->
+                <div class="top_bar">
+                    <div class="top_bar_left">
+                        <button class="top_bar_left_button">View Company Page</button>
+                    </div>
+                    <div class="top_bar_right">
+                        <div class="top_bar_right_left">
+                            <select class="language_select"
+                                style="font-family: 'Font Awesome\ 5 Free'; background-color: '#F5F7FD';"
+                                name="options">
+                                <option style="background-color: '#F5F7FD';">
+                                    <i class='fa fa-home'>English</i>
+                                </option>
+                            </select>
+                        </div>
+                        <div class="top_bar_right_middle">
+                            <i class="fa fa-bell"></i>
+                            <small>3</small>
+                        </div>
+                        <div class="top_bar_right_right company-image">
+                        </div>
+                    </div>
+                </div>
+                <!---End Top Bar-->
+
+                <!---Data Showcase-->
+                <div class="data_showcase">
+                    <div class="showcase showcase1">
+                        <div class="showcase_icon">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="showcase_desc">
+                            <strong>347</strong>
+                            <small>Active Candidates</small>
+                        </div>
+                    </div>
+
+                    <div class="showcase showcase2">
+                        <div class="showcase_icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                        <div class="showcase_desc">
+                            <strong>27</strong>
+                            <small>Published Jobs</small>
+                        </div>
+                    </div>
+
+                    <div class="showcase showcase3">
+                        <div class="showcase_icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                        <div class="showcase_desc">
+                            <strong>14</strong>
+                            <small>Draft Jobs</small>
+                        </div>
+                    </div>
+
+                    <div class="showcase showcase4">
+                        <div class="showcase_icon">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <div class="showcase_desc">
+                            <strong>07</strong>
+                            <small>Team Members</small>
+                        </div>
+                    </div>
+                </div>
+                <!---End Data Showcase-->
+
+                <!---Applicants-->
+                <div class="recent_applicants">
+                    <h6>Recent Applicants</h6>
+
+                    <div class="applicants">
+                        <div class="applicant applicant1">
+                            <div class="applicant_image"></div>
+                            <p>David McDon</p>
+                            <small>UX/UI Designer</small>
+                            <button class="applicant_btn active_applicant_btn">View Details</button>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 4.7
+                            </div>
+                        </div>
+
+                        <div class="applicant applicant2">
+                            <div class="applicant_image"></div>
+                            <p>Ninefar Lorense</p>
+                            <small>Digital Marketer</small>
+                            <button class="applicant_btn">View Details</button>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 4.7
+                            </div>
+                        </div>
+
+                        <div class="applicant applicant3">
+                            <div class="applicant_image"></div>
+                            <p>Kelly Williams</p>
+                            <small>Technical Support</small>
+                            <button class="applicant_btn">View Details</button>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 4.7
+                            </div>
+                        </div>
+
+                        <div class="applicant applicant4">
+                            <div class="applicant_image"></div>
+                            <p>Alison Burgas</p>
+                            <small>HT Executive (Mid-Level)</small>
+                            <button class="applicant_btn">View Details</button>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 4.7
+                            </div>
+                        </div>
+
+                        <div class="applicant applicant5">
+                            <div class="applicant_image"></div>
+                            <p>Lucy Forzen</p>
+                            <small>UX/UI Designer</small>
+                            <button class="applicant_btn">View Details</button>
+                            <div class="rating">
+                                <i class="fa fa-star"></i> 4.7
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!---End Applicants-->
+
+
+                <!---Recent Jobs-->
+                <div class="recent_jobs">
+                    <h6>Recent Jobs</h6>
+
+                    <div class="recent_jobs_table">
+                        <div class="jobs_title table_date table_list_item">
+                            <li class="table_header">Job Title</li>
+                            <li>HT Executive (Mid-Level)</li>
+                            <li>WordPress Developer (Mid-Level)</li>
+                            <li>UX/UI Designer</li>
+                            <li>Technical Support</li>
+                            <li>Senior Content Writer</li>
+                        </div>
+
+                        <div class="jobs_applicants table_date table_list_item">
+                            <li class="table_header">Applicants</li class="table_header">
+                            <li>
+                                <div class="jobs_applicants_user">
+                                    <div class="user1"></div>
+                                    <div class="user2"></div>
+                                    <div class="user3"></div>
+                                    <div class="user4"></div>
+                                    <div class="user5">10</div>
+                                </div>
+                                <p>(14 Applied)</p>
+                            </li>
+                            <li>
+                                <div class="jobs_applicants_user">
+                                    <div class="user1"></div>
+                                    <div class="user2"></div>
+                                    <div class="user3"></div>
+                                    <div class="user4">9</div>
+                                </div>
+                                <p>(12 Applied)</p>
+                            </li>
+                            <li>
+                                <div class="jobs_applicants_user">
+                                    <div class="user1"></div>
+                                    <div class="user2"></div>
+                                    <div class="user3"></div>
+                                    <div class="user4">7</div>
+                                </div>
+                                <p>
+                                    (10 Applied)
+                                </p>
+                            </li>
+                            <li>
+                                <div class="jobs_applicants_user">
+                                    <div class="user1"></div>
+                                    <div class="user2"></div>
+                                    <div class="user3"></div>
+                                    <div class="user4"></div>
+                                    <div class="user5">10</div>
+                                </div>
+                                <p>(14 Applied)</p>
+                            </li>
+                            <li>
+                                <div class="jobs_applicants_user">
+                                    <div class="user1"></div>
+                                    <div class="user2"></div>
+                                    <div class="user3"></div>
+                                    <div class="user4"></div>
+                                    <div class="user5">10</div>
+                                </div>
+                                <p>(14 Applied)</p>
+                            </li>
+                        </div>
+
+                        <div class="jobs_status table_list_item">
+                            <li class="table_header">Status</li class="table_header">
+                            <li><button class="changing">Changing</button></li>
+                            <li><button class="changing">Changing</button></li>
+                            <li><button class="changing">Changing</button></li>
+                            <li><button class="expired">Expired</button></li>
+                            <li><button class="expired">Expired</button></li>
+                        </div>
+
+                        <div class="jobs_deadline table_list_item">
+                            <li class="table_header">Deadline</li class="table_header">
+                            <li>
+                                <div class="deadline_date">
+                                    <p>15 Feb 2020</p>
+                                    <small>(12 days left)</small>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="inner_progress_bar1"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="deadline_date">
+                                    <p>15 Feb 2020</p>
+                                    <small>(12 days left)</small>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="inner_progress_bar2"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="deadline_date">
+                                    <p>15 Feb 2020</p>
+                                    <small>(12 days left)</small>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="inner_progress_bar3"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="deadline_date">
+                                    <p>15 Feb 2020</p>
+                                    <small>(12 days left)</small>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="inner_progress_bar4"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="deadline_date">
+                                    <p>15 Feb 2020</p>
+                                    <small>(12 days left)</small>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="inner_progress_bar5"></div>
+                                </div>
+                            </li>
+
+                        </div>
+
+                        <div class="jobs_actions table_list_item">
+                            <li class="table_header">Actions</li class="table_header">
+                            <li>
+                                <div class="jobs_actions_icons">
+                                    <i class="fa fa-eye"></i>
+                                    <i class="fa fa-file"></i>
+                                    <i class="fa fa-share-alt"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="jobs_actions_icons">
+                                    <i class="fa fa-eye"></i>
+                                    <i class="fa fa-file"></i>
+                                    <i class="fa fa-share-alt"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="jobs_actions_icons">
+                                    <i class="fa fa-eye"></i>
+                                    <i class="fa fa-file"></i>
+                                    <i class="fa fa-share-alt"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="jobs_actions_icons">
+                                    <i class="fa fa-eye"></i>
+                                    <i class="fa fa-file"></i>
+                                    <i class="fa fa-share-alt"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="jobs_actions_icons">
+                                    <i class="fa fa-eye"></i>
+                                    <i class="fa fa-file"></i>
+                                    <i class="fa fa-share-alt"></i>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <!---End Recent Jobs-->
+
+
+                <!---Footer Info-->
+                <div class="footer_info">
+                    <div class="footer_info_left">
+                        Version 1.5.1
+                    </div>
+                    <div class="footer_info_right">
+                        Last Updated: Jan 30, 2020
+                    </div>
+                </div>
+                <!---End Footer Info-->
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
